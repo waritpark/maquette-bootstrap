@@ -1,7 +1,131 @@
 
+/* partie marylene */
+body{
+    margin: 0;
+}
+
+/****  containers ****/
 .container-xl {
     max-width: 1170px;
     padding: 0;
+    width: 1170px;
+}
+
+.container-fluid-1{
+    height: 100vh;
+    background-color: #636363!important;
+}
+.container-fluid-2{
+    height: 420px;
+    background-color: #ffffff!important;
+}
+.container-fluid-3{
+    height: 250px;
+    background-image: url(images/bg1.jpg);
+}
+.container-fluid-4{
+    height: 250px;
+    background-color: #fff;
+}
+
+
+
+/**** color de text ****/
+ .text-primary {
+    color: #ffffff!important;
+}
+.text-secondary{
+    color: #5f5f5f!important;
+}
+
+ /**** police ****/ 
+.bold{
+    font-weight: bold;
+}
+.italic{
+    font-style: italic;
+}
+.regular{
+    font-weight: normal;
+}
+
+.family-1{
+    font-family: playfair diplay;
+}
+
+.family-2{
+    font-family: work sans;
+}
+
+.size-1{
+    font-size: 0.9rem;
+}
+
+.size-2{
+    font-size: 3rem;
+}
+
+.size-3{
+    font-size: 2.375rem;
+}
+
+.size-4{
+    font-size: 0.9375rem;
+}
+/*** header ***/
+
+.bg-light {
+    background-color: #636363!important;
+}
+/* text snow de la nav */
+a {
+    color: #ffffff!important;
+    text-decoration: none;
+    background-color: transparent;
+    font-size: 20px;
+    font-weight: normal;
+}
+/*** burger ***/
+.navbar-light .navbar-toggler {   
+    border: none;
+    outline: none;
+   
+}
+.navbar-light .navbar-toggler-icon{
+    background-image: url(images/header.png);
+    width: 20px;
+    height: 20px;
+}
+
+/**** text du header ****/
+.text-header{
+    margin-top: 33vh;
+}
+
+/**** container-2 ****/
+
+.text-container-2{
+    margin-left: 13.125rem;
+    margin-right: 13.125rem;
+}
+.signature{
+    margin-bottom: 5rem;
+}
+
+/**** partie-3 ****/
+
+.container-3{
+    margin-right: 100px;
+}
+
+/*************************/
+
+
+.img-moche {
+    background-image: url(images/bg1.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 500px;
 }
 figcaption {
     position: relative;
@@ -62,92 +186,8 @@ border-radius: 0rem;
     padding-bottom: 10rem;
 }
 
-
-/* partie marylene */
-body{
-    margin: 0;
-}
-
-/****  containers ****/
-
-.container-xl {
-    max-width: 1170px;
-}
-
-.container-fluid-1{
-    height: 100vh;
-    background-color: #636363!important;
-}
-.container-fluid-2{
-    height: 100vh;
-    background-color: #ffffff!important;
-}
-
-
-/**** color de text ****/
- .text-primary {
-    color: #ffffff!important;
-}
-
- /**** police ****/ 
-.bold{
-    font-weight: bold;
-}
-.italic{
-    font-style: italic;
-}
-.regular{
-    font-weight: normal;
-}
-
-.family-1{
-    font-family: playfair diplay;
-}
-
-.family-2{
-    font-family: work sans;
-}
-
-.size-1{
-    font-size: 0.9rem;
-}
-
-.size-2{
-    font-size: 3rem;
-}
-
-.size-3{
-    font-size: 2.375rem;
-}
-
-.size-4{
-    font-size: 0.9375remgit;
-}
-/*** header ***/
-
-.bg-light {
-    background-color: #636363!important;
-}
-/* text snow de la nav */
-a {
-    color: #ffffff!important;
-    text-decoration: none;
-    background-color: transparent;
-    font-size: 20px;
-    font-weight: normal;
-}
-/*** burger ***/
-.navbar-light .navbar-toggler {   
-    border: none;
-}
-.navbar-light .navbar-toggler-icon {
-    background-image: url(header.png);
-    width: 20px;
-    height: 20px;
-}
-/**** text du header ****/
-.text-header{
-    margin-top: 33vh;
+.color-primary {
+    color: white;
 }
 
 
