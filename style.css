@@ -61,10 +61,11 @@ border-radius: 0rem;
     text-align: center;
 }
 .carousel-indicators li {
-    border: 18px solid#6b6b6b;
+    border: 4px solid#6b6b6b;
     border-radius: 50%;
     box-sizing: border-box;
     margin-bottom: 4rem;
+    width: auto;
 }
 #carousel2 {
     position: absolute;
@@ -72,13 +73,16 @@ border-radius: 0rem;
 
 }
 .carousel-caption2 {
-    padding-bottom: 10rem;
+    padding-bottom: 12rem;
 }
 .color-primary {
     color: white;
 }
 .bg-al-primary {
     background-color: rgb(0, 0, 0);
+}
+.bg-al-secondary {
+    background-color: rgb(246,246,246);
 }
 #col-12-al {
     padding: 0;
@@ -97,4 +101,34 @@ form .btn {
 }
 .traitnoir {
     border-top: 2px solid #000000;
+}
+
+.mt-6 {
+    margin-top: 4rem;
+}
+.mb-6 {
+    margin-bottom: 4rem;
+}
+.mt-1-1 {
+    margin-top: 9rem;
+}
+.pt-pb-1 {
+    padding-top: 5rem;
+    padding-bottom: 5rem;
+}
+.pt-pb-2 {
+    padding-top: 4rem;
+    padding-bottom: 4rem;
+}
+.pt-pb-3 {
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+}
+.w-60 {
+    width: 60%;
+    margin: 0 auto;
+}
+.carousel-indicators .active {
+    border: 6px solid;
+    opacity: .9;
 }
