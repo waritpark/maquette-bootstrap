@@ -3,6 +3,12 @@
     max-width: 1170px;
     padding: 0;
 }
+.img-moche {
+    background-image: url(images/bg1.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 500px;
+}
 figcaption {
     position: relative;
 }
@@ -62,3 +68,6 @@ border-radius: 0rem;
     padding-bottom: 10rem;
 }
 
+.color-primary {
+    color: white;
+}
