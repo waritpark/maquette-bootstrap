@@ -13,6 +13,10 @@
     background-repeat: no-repeat;
     height: 500px;
 }
+.taillelogo {
+    width: 16px;
+    height: 16px;
+}
 .img-herisson {
     width: 5.5rem;
     height: 4rem;
@@ -23,10 +27,6 @@
 .w-60 {
     width: 60%;
     margin: 0 auto;
-}
-.taillelogo {
-    width: 16px;
-    height: 16px;
 }
 figcaption {
     position: relative;
@@ -41,6 +41,11 @@ figcaption img {
     height: 21rem;
 }
 figcaption .btn-primary {
+    background-color: black;
+    border-color: black;
+    border-radius: 0;
+}
+form .btn {
     background-color: black;
     border-color: black;
     border-radius: 0;
@@ -108,11 +113,6 @@ border-radius: 0rem;
 #col-12-al {
     padding: 0;
 }
-form .btn {
-    background-color: black;
-    border-color: black;
-    border-radius: 0;
-}
 .traitblanc {
     border-bottom: 1px solid rgb(54, 54, 54) ;
 }
@@ -143,3 +143,8 @@ form .btn {
     padding-top: 1rem;
     padding-bottom: 1rem;
 }
+
+
+
+
+
