@@ -20,6 +20,10 @@
 .w-90 {
     width: 90%;
 }
+.w-60 {
+    width: 60%;
+    margin: 0 auto;
+}
 .taillelogo {
     width: 16px;
     height: 16px;
@@ -67,7 +71,6 @@ border-radius: 0rem;
     color: #fff;
     text-align: center;
 }
-
 #carousel-indicators1 li {
     border: 4px solid#fff;
     border-radius: 50%;
@@ -79,7 +82,6 @@ border-radius: 0rem;
     border: 6px solid #fff;
     opacity: .9;
 }
-
 #carousel-indicators2 li {
     border: 4px solid#6b6b6b;
     border-radius: 50%;
@@ -91,7 +93,6 @@ border-radius: 0rem;
     border: 6px solid;
     opacity: .9;
 }
-
 .carousel-caption2 {
     padding-bottom: 12rem;
 }
@@ -121,7 +122,6 @@ form .btn {
 .traitnoir {
     border-top: 2px solid #000000;
 }
-
 .mt-6 {
     margin-top: 4rem;
 }
@@ -143,11 +143,3 @@ form .btn {
     padding-top: 1rem;
     padding-bottom: 1rem;
 }
-.w-60 {
-    width: 60%;
-    margin: 0 auto;
-}
-
-
-
-
