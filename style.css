@@ -86,6 +86,7 @@ body{
 
 header{
     width: 100%;
+    padding-top: 1rem;
 }
 
 .bg-light {
@@ -116,7 +117,10 @@ a {
     margin-top: 12rem;
 }
 
-
+.navbar-nav{
+    position: absolute;
+    right: 0;
+}
 
 
 
