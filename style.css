@@ -24,10 +24,15 @@ body{
     background-image: url(images/bg1.jpg);
 }
 .container-fluid-4{
-    height: 250px;
-    background-color: #fff;
+    height: 1450px;
+    background-color: #f6f6f6;
+    
 }
 
+/**** background ****/
+.container-fluid-4 .bg-primary{
+    background-color: #fff!important;
+}
 
 
 /**** color de text ****/
@@ -49,8 +54,9 @@ body{
     font-weight: normal;
 }
 
+
 .family-1{
-    font-family: playfair diplay;
+    font-family: playfair display;
 }
 
 .family-2{
@@ -72,6 +78,10 @@ body{
 .size-4{
     font-size: 0.9375rem;
 }
+.size-5{
+   font-size: 1.5rem;
+}
+
 /*** header ***/
 
 .bg-light {
@@ -115,10 +125,70 @@ a {
 /**** partie-3 ****/
 
 .container-3{
-    margin-right: 100px;
+    margin-right: 6rem;
 }
 
-/*************************/
+.row{
+    margin: auto;
+    
+}
+
+
+/**** partie-4 ****/
+.card-columns{
+    padding-top: 2rem
+}
+
+.partie-4{
+    padding-top: 4rem;
+}
+
+.text-project{
+    margin-left: 230px;
+    margin-right: 230px;
+    line-height: 1rem;
+}
+
+
+.card {
+    border: none;
+    background-color: #f6f6f6;
+}
+
+.card-1{
+    width: 370px; 
+    height: 250px;
+}
+
+.card-title{
+    padding-top: 6rem;
+}
+
+
+.size-image-1{
+    flex-shrink: 0;
+   width: 370px; 
+   height: 250px;
+  
+}
+
+.size-image-2{
+    flex-shrink: 0;
+   width: 370px; 
+   height: 530px;
+}
+
+
+
+.bg-white{    
+    background-color: #f9f9f9;
+    width: 370px; 
+   height: 250px;
+}
+
+
+
+/***************************************************/
 
 
 .img-moche {
