@@ -1,15 +1,21 @@
-/* partie marylene */
 body{
     margin: 0;
+    padding: 0;
 }
 
+html{
+    margin: 0;
+    padding: 0;
+}
 /****  containers ****/
 .container-xl {
     max-width: 1170px;
-    padding: 0;
-    width: 1170px;
+    padding: 0;   
 }
-
+.container-fluid{
+    margin: 0;
+    padding: 0;
+}
 .container-fluid-1{
     height: 100vh;
     background-color: #636363!important;
@@ -24,16 +30,12 @@ body{
 }
 .container-fluid-4{
     height: 1450px;
-    background-color: #f6f6f6;
-    
+    background-color: #f6f6f6;    
 }
-
 /**** background ****/
 .container-fluid-4 .bg-primary{
     background-color: #fff!important;
 }
-
-
 /**** color de text ****/
  .text-primary {
     color: #ffffff!important;
@@ -41,7 +43,6 @@ body{
 .text-secondary{
     color: #5f5f5f!important;
 }
-
  /**** police ****/ 
 .bold{
     font-weight: bold;
@@ -52,54 +53,41 @@ body{
 .regular{
     font-weight: normal;
 }
-
 .medium{
     font-weight: 500;
 }
-
-
 .family-1{
     font-family: playfair display;
 }
-
 .family-2{
     font-family: work sans;
 }
-
 .size-1{
     font-size: 0.9rem;
 }
-
 .size-2{
     font-size: 3rem;
 }
-
 .size-3 /*38px*/{
     font-size: 2.375rem;
 }
-
 .size-4{
     font-size: 0.9375rem;
 }
 .size-5 /*24px*/{
    font-size: 1.5rem;
 }
-
 .size-6{
     font-size: 1.25rem;
 }
-
 .size-7 /*15px*/{
     font-size: 0.75rem;
 }
-
 /*** header ***/
-
 header{
     width: 100%;
     padding-top: 1rem;
 }
-
 .bg-light {
     background-color: #636363!important;
 }
@@ -114,29 +102,26 @@ a {
 /*** burger ***/
 .navbar-light .navbar-toggler {   
     border: none;
-    outline: none;
-   
+    outline: none;   
 }
 .navbar-light .navbar-toggler-icon{
     background-image: url(images/header.png);
     width: 20px;
     height: 20px;
 }
-
 /**** text du header ****/
 .text-header{
     margin-top: 12rem;
 }
-
 .navbar-nav{
     position: absolute;
     right: 0;
 }
-
-
-
+#container-header{
+    margin: 0;
+    padding: 0;
+}
 /**** container-2 ****/
-
 .text-container-2{
     margin-left: 13.125rem;
     margin-right: 13.125rem;
@@ -144,32 +129,30 @@ a {
 .signature{
     margin-bottom: 5rem;
 }
-
 /**** partie-3 ****/
-
 .container-3{
     margin-right: 6rem;
 }
-
-
-
-
+.container-omg{
+    margin: 0 auto;
+    width: 85%;
+    padding: 0;
+}
+#container-mg{
+    width: 100%;
+}
 /**** partie-4 ****/
 .card-columns{
     padding-top: 2rem
 }
-
 .partie-4{
     padding-top: 4rem;
 }
-
 .text-project{
     margin-left: 230px;
     margin-right: 230px;
     line-height: 1rem;
 }
-
-
 .card {
     border: none;
     background-color: #f6f6f6;
@@ -179,36 +162,26 @@ a {
     width: 370px; 
     height: 250px;
 }
-
 .card-title{
     padding-top: 6rem;
 }
-
-
 .size-image-1{
     flex-shrink: 0;
    width: 370px; 
    height: 250px;
   
 }
-
 .size-image-2{
     flex-shrink: 0;
    width: 370px; 
    height: 530px;
 }
-
-
-
 .bg-white{    
     background-color: #f9f9f9;
     width: 370px; 
    height: 250px;
 }
-
-
-/* ********************************** */
-
+/*********** partie arthur************************ */
 .container-p-al {
     width: 60%;
     margin: 0 auto;
@@ -368,8 +341,424 @@ border-radius: 0rem;
     padding-top: 1rem;
     padding-bottom: 1rem;
 }
+#container-herisson{
+    width: 100%;
+    margin: 0;
+    padding: 0;
+}
+/*************** media queries***************/
+@media (min-width: 992px) and (max-width: 1273px) { 
+    /**  header **/
+    .text-header {
+         margin-top: 0; 
+    }
+    /** partie-2 **/
+    .container-3 {
+      margin-right: 2rem;
+      margin-left: 1rem;
+    }  
+    /** partie-4 **/
+    .card-1{
+        width: 100%;
+    }
+    .size-image-1{
+       width: 100%;
+    }
+    .size-image-2 {
+        width: 100%;  
+    }
+    /** partie-7 **/
+    #card-part-blog3{       
+        display: none;
+    }
+    #card-part-blog6{       
+        display: none;
+    }
+    #card-part-blog9{       
+        display: none;
+    } 
+    /** partie-8 **/
+    #container-form{
+        margin: 0 auto;
+        width: 90%;
+    }
+    /** partie-9 **/
+    #container-footer{
+        margin: 0 auto;
+        width: 90%;
+    }
+    #text-twits1{
+        padding: 0;
+    }
+    #text-twits2{
+        padding: 0;
+    }
+    #text-twits3{
+        padding: 0;
+    }
+    #container-photo-1{
+       display: none;
+    }
+    #container-photo-2{
+        display: none;
+     }
+}
+@media (min-width: 768px) and (max-width: 991.98px) { 
+    /** partie-1 **/
+    .text-header {
+         margin-top: 0; 
+    }
+   /** partie-3 **/
+    .container-fluid-3{
+        height: auto;
+        padding: 2rem;
+    }
+    #display-block-1{
+        display: block!important;
+    }
+    #display-block-2{
+        display: block!important;
+    }
+    #display-block-3{
+        display: block!important;
+    }
+    #display-block-4{
+        display: block!important;
+    }  
+    /** partie-4 **/
+    .card-1{
+        width: 100%;
+    }
+    .size-image-1{
+       width: 100%;
+    }
+    .size-image-2 {
+        width: 100%;       
+    }
+    .mt-1-1 {
+        margin-top: 3rem;
+    }  
+    /** partie-7 **/
+    #card-part-blog3{       
+        display: none;
+    }
+    #card-part-blog6{       
+        display: none;
+    }
+    #card-part-blog9{       
+        display: none;
+    }
+     /** partie-8 **/
+     #container-form{
+        margin: 0 auto;
+        width: 90%;
+    }    
+    /** partie-9 **/
+    #container-footer{
+        margin: 0 auto;
+        width: 90%;
+    }
+    #text-twits{
+        padding: 0;
+    }
+    #text-twits2{
+        padding: 0;
+    }
+    #text-twits3{
+        padding: 0;
+    }
+    #container-photo-1{
+       display: none;
+    }
+    #container-photo-2{
+        display: none;
+     }
+}
+@media (min-width: 576px) and (max-width: 767.98px) { 
+     /** partie-1 **/
+     .text-header {
+        margin-top: 0; 
+   }   
+   #agency-text{
+      margin: 0 auto;
+      width: 90%;
+   }
+   .text-container-2{
+    margin: 0;
+   }   
+/** partie-3 **/
+   #display-block-1{
+    width: 50%;
+    }
+    #display-block-2{
+    width: 50%;
+    }
+    #display-block-3{
+    width: 50%;
+    }
+   #display-block-4{
+       width: 50%;
+   }
+   #container-mg {
+     width: auto;     
+    }
+     /** partie-4 **/
+     .card-1{
+        width: 100%;
+    }
+    .size-image-1{
+       width: 100%;
+    }
+    .size-image-2 {
+        width: 100%;       
+    }
+    .text-project{
+        margin-left: 1rem;
+        margin-right: 1rem;
+        line-height: 1rem;
+    }
+    .card-columns {   
+    column-count: 2;
+    }
+    .container-fluid-4 {
+         height: auto;   
+    }
+    /** partie-5**/
+    .mt-1-1 {
+        margin-top: 3rem;
+    }    
+    .carousel-inner p{
+        font-size: 1.3rem;
+    }
+    /** partie-6 **/
+    #handmade{
+        display: none;
+    }
+    /** partie-7 **/
+    #card-part-blog2{       
+        display: none;
+    }
+    #card-part-blog5{       
+        display: none;
+    }
+    #card-part-blog7{       
+        display: none;
+    }
+    #card-part-blog3{       
+        display: none;
+    }
+    #card-part-blog6{       
+        display: none;
+    }
+    #card-part-blog9{       
+        display: none;
+    }
+     /** partie-8 **/
+     #container-form{
+        margin: 0 auto;
+        width: 90%;
+    }    
+    /** partie-9 **/
+    #container-footer{
+        margin: 0 auto;
+        width: 90%;
+    }
+    #text-twits{
+        padding: 0;
+    }
+    #text-twits2{
+        padding: 0;
+    }
+    #text-twits3{
+        padding: 0;
+    }
+    #text-about-us {
+        display: none;
+    }
+    #container-photo-1{
+       display: none;
+    }
+    #container-photo-2{
+        display: none;
+    }
+    #container-photo-3{
+        display: none;
+    }
+    #container-photo-4{
+        display: none;
+    }
+    #container-photo-5{
+        display: none;
+    }
+    #content-twit1 {
+        display: none;
+    }
+    #content-twit2 {
+        display: none;
+    }
+    #text-twits1 img {
+        display: none;
+    }
+    #text-twits2 img {
+        display: none;
+    }
+    .traitgris p{
+         font-size: 1.1rem;
+    }
+    .col-5 {
+        flex-basis: 100%;
+        display: block;
+        max-width: 100%;
+    }
+    #container-herisson{
+        width: 100%;
+        flex-direction: column;
+    }
+    #instagram {
+        justify-content: space-around!important;
+    }
+}
+@media (max-width: 575.98px) { 
+       /** partie-1 **/
+    .text-header {
+        margin-top: 0; 
+   }
+   .size-2 {
+    font-size: 2rem;
+   }   
+   #agency-text{
+      margin: 0 auto;
+      width: 90%;
+   }
+   .text-container-2{
+    margin: 0;
+   }   
+/** partie-3 **/
+    .container-fluid-3 {
+        display: none!important;   
+    }
+     /** partie-4 **/    
+     .card-1{
+        width: 100%;
+    }
+    .size-image-1{
+       width: 100%;
+    }
+    .size-image-2 {
+        width: 100%;       
+    }
+    .text-project{
+        margin-left: 1rem;
+        margin-right: 1rem;
+        line-height: 1rem;
+    }
+    .card-columns {   
+    column-count: 1;
+    }
+    .container-fluid-4 {
+         height: auto;   
+    }
+    /** partie-5**/
+    .mt-1-1 {
+        margin-top: 3rem;
+    }
+    #container-imgdemerde {
+        display: none!important;
+    }
+    .carousel-inner p{
+        font-size: 1.1rem;
+    }
+    /** partie-6 **/
+    #handmade{
+        display: none;
+    }
+    /** partie-7 **/
+    #card-part-blog2{       
+        display: none;
+    }
+    #card-part-blog5{       
+        display: none;
+    }
+    #card-part-blog7{       
+        display: none;
+    }
+    #card-part-blog3{       
+        display: none;
+    }
+    #card-part-blog6{       
+        display: none;
+    }
+    #card-part-blog9{       
+        display: none;
+    }
+     /** partie-8 **/
+     #container-form{
+        margin: 0 auto;
+        width: 90%;
+    }
+    /** partie-9 **/
+    #container-footer{
+        margin: 0 auto;
+        width: 90%;
+    }
+    #text-twits{
+        padding: 0;
+    }
+    #text-twits2{
+        padding: 0;
+    }
+    #text-twits3{
+        padding: 0;
+    }
+    #text-about-us {
+        display: none;
+    }
+    #container-photo-1{
+       display: none;
+    }
+    #container-photo-2{
+        display: none;
+    }
+    #container-photo-3{
+        display: none;
+    }
+    #container-photo-4{
+        display: none;
+    }
+    #container-photo-5{
+        display: none;
+    }
+    #content-twit1 {
+        display: none;
+    }
+    #content-twit2 {
+        display: none;
+    }
+    #text-twits1 img {
+        display: none;
+    }
+    #text-twits2 img {
+        display: none;
+    }
+    .traitgris p{
+         font-size: 1.1rem;
+    }
 
-
-
-
+    .col-5 {
+        flex-basis: 100%;
+        display: block;
+        max-width: 100%;
+    }
+    #container-herisson{
+        width: 100%;
+        flex-direction: column;
+        align-items: center;
+    }
+    #instagram {
+        justify-content: space-around!important;
+    }
+    .mr-3 {
+        margin: 0!important;
+    }
+}
 
