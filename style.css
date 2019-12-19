@@ -1,4 +1,3 @@
-
 /* partie marylene */
 body{
     margin: 0;
@@ -54,6 +53,10 @@ body{
     font-weight: normal;
 }
 
+.medium{
+    font-weight: 500;
+}
+
 
 .family-1{
     font-family: playfair display;
@@ -71,15 +74,23 @@ body{
     font-size: 3rem;
 }
 
-.size-3{
+.size-3 /*38px*/{
     font-size: 2.375rem;
 }
 
 .size-4{
     font-size: 0.9375rem;
 }
-.size-5{
+.size-5 /*24px*/{
    font-size: 1.5rem;
+}
+
+.size-6{
+    font-size: 1.25rem;
+}
+
+.size-7 /*15px*/{
+    font-size: 0.75rem;
 }
 
 /*** header ***/
@@ -196,15 +207,33 @@ a {
 }
 
 
+/* ********************************** */
 
-/***************************************************/
-
-
+.container-p-al {
+    width: 60%;
+    margin: 0 auto;
+    max-width: 640px;
+}
 .img-moche {
     background-image: url(images/bg1.jpg);
     background-size: cover;
     background-repeat: no-repeat;
     height: 500px;
+}
+.taillelogo {
+    width: 16px;
+    height: 16px;
+}
+.img-herisson {
+    width: 5.5rem;
+    height: 4rem;
+}
+.w-90 {
+    width: 90%;
+}
+.w-60 {
+    width: 60%;
+    margin: 0 auto;
 }
 figcaption {
     position: relative;
@@ -216,11 +245,16 @@ figcaption button {
 }
 figcaption img {
     width: 20rem;
-    height: 17rem;
+    height: 21rem;
 }
 figcaption .btn-primary {
     background-color: black;
     border-color: black;
+    border-radius: 0;
+}
+form .btn {
+    background-color: #252525;
+    border: none;
     border-radius: 0;
 }
 .card {
@@ -235,10 +269,27 @@ border-radius: 0rem;
 #card-part-blog3 {
     width: 22rem;
 }
+#card-part-blog4 {
+    width: 22rem;
+}
+#card-part-blog5 {
+    width: 22rem;
+}
+#card-part-blog6 {
+    width: 22rem;
+}
+#card-part-blog7 {
+    width: 22rem;
+}
+#card-part-blog8 {
+    width: 22rem;
+}
+#card-part-blog9 {
+    width: 22rem;
+}
 .card-body {
     padding-top: 0;
 }
-
 .carousel-caption {
     position: absolute;
     right: 15%;
@@ -250,24 +301,75 @@ border-radius: 0rem;
     color: #fff;
     text-align: center;
 }
-.carousel-indicators li {
-    border: 18px solid#6b6b6b;
+#carousel-indicators1 li {
+    border: 4px solid#fff;
     border-radius: 50%;
     box-sizing: border-box;
     margin-bottom: 4rem;
+    width: auto;
 }
-#carousel2 {
-    position: absolute;
-    padding-top: 4rem;
-
+#carousel-indicators1 .active {
+    border: 6px solid #fff;
+    opacity: .9;
+}
+#carousel-indicators2 li {
+    border: 4px solid#6b6b6b;
+    border-radius: 50%;
+    box-sizing: border-box;
+    margin-bottom: 4rem;
+    width: auto;
+}
+#carousel-indicators2 .active {
+    border: 6px solid;
+    opacity: .9;
 }
 .carousel-caption2 {
-    padding-bottom: 10rem;
+    padding-bottom: 12rem;
 }
-
 .color-primary {
     color: white;
 }
+.bg-al-primary {
+    background-color: rgb(0, 0, 0);
+}
+.bg-al-secondary {
+    background-color: rgb(246,246,246);
+}
+#col-12-al {
+    padding: 0;
+}
+.traitblanc {
+    border-bottom: 1px solid rgb(54, 54, 54) ;
+}
+.traitgris {
+    border-bottom: 1px solid rgb(216,216,216);
+}
+.traitnoir {
+    border-top: 2px solid #000000;
+}
+.mt-6 {
+    margin-top: 4rem;
+}
+.mb-6 {
+    margin-bottom: 4rem;
+}
+.mt-1-1 {
+    margin-top: 9rem;
+}
+.pt-pb-1 {
+    padding-top: 5rem;
+    padding-bottom: 5rem;
+}
+.pt-pb-2 {
+    padding-top: 4rem;
+    padding-bottom: 4rem;
+}
+.pt-pb-3 {
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+}
+
+
 
 
 
