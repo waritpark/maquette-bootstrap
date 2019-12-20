@@ -99,7 +99,25 @@ a {
     font-size: 20px;
     font-weight: normal;
 }
+.navbar-nav{
+    flex-direction: row;
+    position: relative!important;               
+}
+#li-contact{
+    padding-right: 3rem;
+}
+.navbar-toggler{
+  position: absolute;
+  right: 0;
+}
+.nav-item{
+    padding: 0 2.5rem;
+}
 /*** burger ***/
+.collapsing{
+    -webkit-transition: none;
+    transition: none;
+}
 .navbar-light .navbar-toggler {   
     border: none;
     outline: none;   
@@ -117,7 +135,7 @@ a {
     position: absolute;
     right: 0;
 }
-#container-header{
+.container-header{
     margin: 0;
     padding: 0;
 }
@@ -349,6 +367,20 @@ border-radius: 0rem;
 /*************** media queries***************/
 @media (min-width: 992px) and (max-width: 1273px) { 
     /**  header **/
+    .navbar-nav{
+        flex-direction: row;
+        position: relative!important;               
+    }
+    #li-contact{
+        padding-right: 3rem;
+    }
+    .navbar-toggler{
+      position: absolute;
+      right: 0;
+    }
+    .nav-item{
+        padding: 0 2.5rem;
+    }
     .text-header {
          margin-top: 0; 
     }
@@ -358,6 +390,9 @@ border-radius: 0rem;
       margin-left: 1rem;
     }  
     /** partie-4 **/
+    .width100{
+        width: 100%;
+    }
     .card-1{
         width: 100%;
     }
@@ -405,6 +440,20 @@ border-radius: 0rem;
 }
 @media (min-width: 768px) and (max-width: 991.98px) { 
     /** partie-1 **/
+    .navbar-nav{
+        flex-direction: row;
+        position: relative!important;               
+    }
+    #li-contact{
+        padding-right: 3rem;
+    }
+    .navbar-toggler{
+      position: absolute;
+      right: 0;
+    }
+    .nav-item{
+        padding: 0 2.5rem;
+    }
     .text-header {
          margin-top: 0; 
     }
@@ -458,7 +507,7 @@ border-radius: 0rem;
         margin: 0 auto;
         width: 90%;
     }
-    #text-twits{
+    #text-twits1{
         padding: 0;
     }
     #text-twits2{
@@ -476,9 +525,33 @@ border-radius: 0rem;
 }
 @media (min-width: 576px) and (max-width: 767.98px) { 
      /** partie-1 **/
-     .text-header {
+     .navbar-nav{
+        flex-direction: row;
+        top: 10px;
+        position: absolute!important;
+    }
+    .navbar-toggler{
+        position: absolute!important;
+        right: 0;
+        top: 15px;
+    }
+    .nav-item{
+        padding: 0 1rem;
+    }
+    .container-header {
+    margin: 0;
+    padding: 0;  
+    }
+    #container-header2{
+        margin-top: 5rem;
+    }
+    .text-header {
         margin-top: 0; 
    }   
+   .container-w90{
+    width: 90%;
+    margin: 0 auto;
+   }
    #agency-text{
       margin: 0 auto;
       width: 90%;
@@ -563,7 +636,7 @@ border-radius: 0rem;
         margin: 0 auto;
         width: 90%;
     }
-    #text-twits{
+    #text-twits1{
         padding: 0;
     }
     #text-twits2{
@@ -620,6 +693,31 @@ border-radius: 0rem;
 }
 @media (max-width: 575.98px) { 
        /** partie-1 **/
+       .navbar-nav{
+        display: block;
+        flex-direction: column;
+        position: absolute!important;
+        width: 100%;
+        z-index: 500;
+       text-align: center;
+        background-color: #636363!important;
+        top: 100px;
+    }
+    #li-contact {
+       padding-right: 0;
+    }
+    .nav-link {
+        display: block;
+        padding: 1.5rem 1rem;
+    }
+    .navbar-toggler{
+        position: absolute!important;
+        right: 0;
+        top: 15px;
+    }
+    .nav-item{
+        padding: 0 0.5rem;
+    }
     .text-header {
         margin-top: 0; 
    }
@@ -673,6 +771,10 @@ border-radius: 0rem;
         display: none;
     }
     /** partie-7 **/
+    .container-w90{
+        width: 90%;
+        margin: 0 auto;
+    }
     #card-part-blog2{       
         display: none;
     }
@@ -701,11 +803,12 @@ border-radius: 0rem;
         margin: 0 auto;
         width: 90%;
     }
-    #text-twits{
+    #text-twits1{
         padding: 0;
     }
     #text-twits2{
         padding: 0;
+        
     }
     #text-twits3{
         padding: 0;
@@ -733,6 +836,9 @@ border-radius: 0rem;
     }
     #content-twit2 {
         display: none;
+    }
+    #content-twit{
+        text-align: center;
     }
     #text-twits1 img {
         display: none;
